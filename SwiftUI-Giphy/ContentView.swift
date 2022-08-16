@@ -13,10 +13,12 @@ import GiphyUISDK
 struct ContentView: View {
 
     @State private var searchText = ""
+    @State private var contentType: GiphyUISDK.GPHContent = .trendingGifs
+    @State private var mediaType: GiphyUISDK.GPHMediaType = .gif
 
     var body: some View {
         CustomSearchBar(text: $searchText)
-
+        CategoryView(contentType: $contentType, mediaType: $mediaType)
 //        GiphySearchRepresentable(mediaDetail: { mediaID, mediaURL in
 //            print("You have media id is \(mediaID) and its url is \(mediaURL)")
 //        })
@@ -24,9 +26,14 @@ struct ContentView: View {
 //            print("You have media id is \(mediaID) and its url is \(mediaURL)")
 //        }, apiKey: "Enter your API KEY")
 
-        GiphyGridRepresentable(mediaDetail: { mediaID, mediaURL in
+        GiphyGridRepresentable(apiKey: "Enter your API KEY",
+                               numberOfTrack: 2,
+                               searchText: $searchText,
+                               contentType: $contentType,
+                               mediaType: $mediaType,
+                               mediaDetail: {mediaID, mediaURL in
             print("You have media id is \(mediaID) and its url is \(mediaURL)")
-        }, apiKey: "Enter your API KEY", searchText: $searchText)
+        })
         .padding(.horizontal,8)
     }
 }

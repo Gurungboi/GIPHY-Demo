@@ -11,6 +11,7 @@
 		10C2CFA328A9C8CF00F9B678 /* GiphyGridRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2CFA228A9C8CF00F9B678 /* GiphyGridRepresentable.swift */; };
 		10C2CFA528AA350C00F9B678 /* GiphySearchRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2CFA428AA350C00F9B678 /* GiphySearchRepresentable.swift */; };
 		10DAD57628AB193700E739C9 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD57528AB193700E739C9 /* CustomSearchBar.swift */; };
+		10DAD57A28AB770F00E739C9 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD57928AB770F00E739C9 /* CategoryView.swift */; };
 		10EFA225289CEC5600F051FE /* SwiftUI_GiphyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EFA224289CEC5600F051FE /* SwiftUI_GiphyApp.swift */; };
 		10EFA227289CEC5600F051FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EFA226289CEC5600F051FE /* ContentView.swift */; };
 		10EFA229289CEC5700F051FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EFA228289CEC5700F051FE /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		10C2CFA228A9C8CF00F9B678 /* GiphyGridRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyGridRepresentable.swift; sourceTree = "<group>"; };
 		10C2CFA428AA350C00F9B678 /* GiphySearchRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchRepresentable.swift; sourceTree = "<group>"; };
 		10DAD57528AB193700E739C9 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		10DAD57928AB770F00E739C9 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		10EFA221289CEC5600F051FE /* SwiftUI-Giphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Giphy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10EFA224289CEC5600F051FE /* SwiftUI_GiphyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GiphyApp.swift; sourceTree = "<group>"; };
 		10EFA226289CEC5600F051FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				10C2CFA228A9C8CF00F9B678 /* GiphyGridRepresentable.swift */,
 				10C2CFA428AA350C00F9B678 /* GiphySearchRepresentable.swift */,
 				10DAD57528AB193700E739C9 /* CustomSearchBar.swift */,
+				10DAD57928AB770F00E739C9 /* CategoryView.swift */,
 			);
 			path = "SwiftUI-Giphy";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10EFA227289CEC5600F051FE /* ContentView.swift in Sources */,
+				10DAD57A28AB770F00E739C9 /* CategoryView.swift in Sources */,
 				10EFA225289CEC5600F051FE /* SwiftUI_GiphyApp.swift in Sources */,
 				10DAD57628AB193700E739C9 /* CustomSearchBar.swift in Sources */,
 				10C2CFA328A9C8CF00F9B678 /* GiphyGridRepresentable.swift in Sources */,
